@@ -3,27 +3,41 @@
 
 
 
-/* ---------------- GLOBAL ---------------- */
+/* ---------------- ROOT ---------------- */
 @import url('../blocks/root/root.css');
 
+
+
+/* ---------------- COMPONENTS ---------------- */
+
+/* logo */
+@import url('../blocks/logo/logo.css');
+@import url('../blocks/logo/_place/logo_place_header.css');
+@import url('../blocks/logo/_place/logo_place_footer.css');
+
+/* section-title */
 @import url('../blocks/section-title/section-title.css');
 @import url('../blocks/section-title/_theme/section-title_theme_dark.css');
 
+/* section-subtitle */
 @import url('../blocks/section-subtitle/section-subtitle.css');
 @import url('../blocks/section-subtitle/__theme/section-subtitle_theme_dark.css');
 
+/* two-columns */
 @import url('../blocks/two-columns/two-columns.css');
 @import url('../blocks/two-columns/__brief/two-columns__brief.css');
 @import url('../blocks/two-columns/__main-text/two-columns__main-text.css');
 @import url('../blocks/two-columns/__paragraph/two-columns__paragraph.css');
 @import url('../blocks/two-columns/__span-accent/two-columns__span-accent.css');
 
+/* cards */
 @import url('../blocks/cards/cards.css');
 @import url('../blocks/cards/__item/cards__item.css');
 @import url('../blocks/cards/__image/cards__image.css');
 @import url('../blocks/cards/__title/cards__title.css');
 @import url('../blocks/cards/__description/cards__description.css');
 
+/* table */
 @import url('../blocks/table/table.css');
 @import url('../blocks/table/_theme/table_theme_dark.css');
 @import url('../blocks/table/__cell/table__cell.css');
@@ -33,12 +47,9 @@
 @import url('../blocks/table/__text/table__text.css');
 @import url('../blocks/table/__text/_theme/table__text_theme_dark.css');
 
+/* rotation */
+@import url('../blocks/rotation/rotation.css');
 
-
-/* ---------------- LOGO ---------------- */
-@import url('../blocks/logo/logo.css');
-@import url('../blocks/logo/_place/logo_place_header.css');
-@import url('../blocks/logo/_place/logo_place_footer.css');
 
 
 /* ---------------- HEADER ---------------- */
