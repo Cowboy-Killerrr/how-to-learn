@@ -21,7 +21,7 @@
 
 /* section-subtitle */
 @import url('../blocks/section-subtitle/section-subtitle.css');
-@import url('../blocks/section-subtitle/__theme/section-subtitle_theme_dark.css');
+@import url('../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css');
 
 /* two-columns */
 @import url('../blocks/two-columns/two-columns.css');
@@ -72,6 +72,7 @@
 /* ---------------- VIDEO ---------------- */
 @import url('../blocks/video/video.css');
 @import url('../blocks/video/__iframes/video__iframes.css');
+@import url('../blocks/video/__iframe/video__iframe.css');
 
 
 /* ---------------- OAKLEY ---------------- */
